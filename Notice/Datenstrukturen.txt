@@ -1,0 +1,24 @@
+		Statische Datenstrukturen
+Konstante
+Variable
+Arrays
+
+		Dynamische Datenstrukturen
+Warum? -unbekannte Datengröße
+	   -effizientere Speichernutzung
+	   -Performance
+	   -neuartige Strukturen
+	   -einfachere Programmierung
+
+Alle - Keine Fixe Größe
+	 - Objekte miteinander verknüpft
+	 - Objekte können dynamisch hinzugefügt/entfernt werden
+Liste - geordnet
+	  - Objekte haben genau einen Vorgänger und genau einen Nachfolger
+	  - doppelte Objekte möglich
+	Bsp: ArrayList
+		ArrayList obj = new ArrayList();
+		obj.add(new Object());
+		Object nr95 = obj.get(94);
+		obj.remove(3); // andere werden verschoben
+		
